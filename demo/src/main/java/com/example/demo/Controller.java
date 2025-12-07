@@ -16,6 +16,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class Controller{
     void greet(){
-        System.out.print("Hello World !");
+        return "Hello World !";
     }
 }
