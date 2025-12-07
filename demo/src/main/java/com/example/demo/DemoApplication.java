@@ -5,9 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class DemoApplication {
-// Iam bruce wayne ✨✨
+
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		ApplicationContext context=SpringApplication.run(DemoApplication.class, args);
+		Controller con=context.getBean(Controller.class);
+		con.greet();
 	}
 
 }
