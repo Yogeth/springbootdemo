@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Pen{
-  public void wtite(){
+  public void write(){
     System.out.println("writing using pen!");
   }
 }
