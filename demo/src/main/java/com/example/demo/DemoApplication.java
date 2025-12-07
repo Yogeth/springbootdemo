@@ -9,12 +9,15 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(DemoApplication.class, args);
-		Controller con=context.getBean(Controller.class);
+	//	Controller con=context.getBean(Controller.class);
 		
-		con.age=45;
+	/*	con.age=45;
 		con.greet();
 		Controller con2=context.getBean(Controller.class);
 		System.out.print(con.age+":"+con2.age);
+		*/
+		Student student =context.getBean(Student.class);
+		student.note();
 	}
 
 }
