@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 @Component
 public class Student{
   //field injection 
-//  @Autowired
+ @Autowired
   private Pen pen;
   //setter injection
- /* @Autowired
+ @Autowired
   public void setPen(Pen pen){
-    System.out.println("this is setter injection");
+    System.out.println("this is setter injection❕");
     this.pen=pen;
-  } */
+  } 
   //constructor injection
   @Autowired
   Student(Pen pen){
