@@ -20,7 +20,7 @@ public class Student{
   @Autowired
   Student(Pen pen){
     System.out.println("This is constructor injecton!!");
-    this.pen=pen;
+ //  this.pen=pen;
   }
   
   public void note(){
