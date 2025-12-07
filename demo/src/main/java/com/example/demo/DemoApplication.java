@@ -11,8 +11,8 @@ public class DemoApplication {
 		ApplicationContext context=SpringApplication.run(DemoApplication.class, args);
 		Controller con=context.getBean(Controller.class);
 		
-		con.age=30;
-	//	con.greet();
+		con.age=45;
+		con.greet();
 		Controller con2=context.getBean(Controller.class);
 		System.out.print(con.age+":"+con2.age);
 	}
