@@ -21,6 +21,6 @@ import org.springframework.context.annotation.Scope;
 public class Controller{
     public int age;
     void greet(){
-        return "Hello World !";
+        System.out.println("Hello World !");
     }
 }
