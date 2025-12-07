@@ -19,8 +19,8 @@ public class Student{
   //constructor injection
   @Autowired
   Student(Pen pen){
-    System.out.println("This is constructor injecton!!");
- //  this.pen=pen;
+    System.out.println("This is constructor injecton✨!!");
+    this.pen=pen;
   }
   
   public void note(){
