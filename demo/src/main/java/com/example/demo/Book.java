@@ -1,6 +1,9 @@
 package com.example.demo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
 @Component
+@Qualifier("chalk")
 public class Book{
   @Autowired
   private Writer writer;
