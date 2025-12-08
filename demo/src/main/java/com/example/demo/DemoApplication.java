@@ -16,8 +16,10 @@ public class DemoApplication {
 		Controller con2=context.getBean(Controller.class);
 		System.out.print(con.age+":"+con2.age);
 		*/
-		Student student =context.getBean(Student.class);
-		student.note();
+	//	Student student =context.getBean(Student.class);
+	 //student.note();
+	 Book book=context.getBean(Book.class);
+	 book.papper();
 	}
 
 }

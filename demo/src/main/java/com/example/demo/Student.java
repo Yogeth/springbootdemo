@@ -13,7 +13,7 @@ public class Student{
   //setter injection
  @Autowired
   public void setPen(Pen pen){
-    System.out.println("this is setter injection❕");
+    System.out.println("this is setter injection❕ ");
     this.pen=pen;
   } 
   //constructor injection
