@@ -1,5 +1,7 @@
 package com.example.demo;
 import org.springframework.stereotype.Component;
+import org.springframework.context.annotation.Primary;
+
 
 @Component
 @Primary
