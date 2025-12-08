@@ -4,9 +4,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("chalk")
 public class Book{
   @Autowired
+  @Qualifier("chalk")
   private Writer writer;
   void papper(){
     writer.writing();
